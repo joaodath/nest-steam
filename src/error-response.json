@@ -1,0 +1,62 @@
+{
+    "statusCode": 400,
+    "error": "Bad Request",
+    "message": [
+        {
+            "target": {
+                "name": "",
+                "email": "admingmail.com",
+                "password": "1234",
+                "passwordConfirmation": "1234"
+            },
+            "value": "admingmail.com",
+            "property": "email",
+            "children": [],
+            "constraints": {
+                "isEmail": "Informe um endereço de email válido"
+            }
+        },
+        {
+            "target": {
+                "name": "",
+                "email": "admingmail.com",
+                "password": "1234",
+                "passwordConfirmation": "1234"
+            },
+            "value": "",
+            "property": "name",
+            "children": [],
+            "constraints": {
+                "isNotEmpty": "Informe o nome do usuário"
+            }
+        },
+        {
+            "target": {
+                "name": "",
+                "email": "admingmail.com",
+                "password": "1234",
+                "passwordConfirmation": "1234"
+            },
+            "value": "1234",
+            "property": "password",
+            "children": [],
+            "constraints": {
+                "minLength": "A senha deve ter no mínimo 6 caracteres"
+            }
+        },
+        {
+            "target": {
+                "name": "",
+                "email": "admingmail.com",
+                "password": "1234",
+                "passwordConfirmation": "1234"
+            },
+            "value": "1234",
+            "property": "passwordConfirmation",
+            "children": [],
+            "constraints": {
+                "minLength": "A confirmação de senha deve ter no mínimo 6 caracteres"
+            }
+        }
+    ]
+}
